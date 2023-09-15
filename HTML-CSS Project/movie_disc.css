@@ -1,0 +1,53 @@
+html,
+body {
+  height: 100%;
+  margin: 0;
+  font-size: 16px;
+  font-family: "lato", sans-serif;
+  font-weight: 400;
+  line-height: 1.8em;
+  color: red;
+}
+.pimg1 {
+  background-image: url(movie.jpg);
+  min-height: 100%;
+}
+  .pimg2 {
+    background-image: url(wp2741668-american-psycho-wallpaper.jpg);
+    min-height: 400px;
+  }
+  .pimg1,
+  .pimg2 {
+  position: relative;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+.ptext {
+  position: absolute;
+  top: 50%;
+  width: 100%;
+  text-align: center;
+  color: rgb(0, 0, 0);
+  font-size: 27px;
+  letter-spacing: 8px;
+  text-transform: uppercase;
+}
+.textBg {
+  background: white;
+  color: rgb(219, 51, 51);
+  padding: 20px;
+}
+.section {
+  padding: 50px 80px;
+  text-align: center;
+}
+.section-discription {
+  background-color: white;
+  color: black;
+}
+.section-in_detail {
+  background-color: white;
+  color: black;
+}
